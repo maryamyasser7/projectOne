@@ -1,0 +1,72 @@
+:root{
+--color-primary: #ff5a5f;
+--color-secondary:#24324a;
+--background-gray:#F7F7F7;
+--background-pink:#FFE8E9;
+--font-family: 'Nunito', sans-serif;
+
+}
+*{
+    font-family: var(--font-family);
+}
+
+.backGroung{
+    background-image: url(../images/1.jpg);
+    position: relative;
+    height: 90dvh;
+}
+.backGroung .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+/* nav bar */
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+}
+nav ul li a:hover{
+color: var(--color-primary);
+}
+@media screen and (max-width: 1084px) {
+    nav .col-lg-6{
+        display: none; 
+    }
+    .menue {
+        display: block;
+    }
+}
+@media screen and (min-width: 1084px) {
+    .navbar .navbar-brand ,.navbar-toggler{
+        display: none; 
+    }
+  
+}
+/* end of nav */
+.backGroung .title{
+    margin-top: 33dvh;
+ }
+
+ /*  Why choose Us */
+ .chooseUS{
+    background-color: var(--background-gray);
+ }
+ .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--background-pink);
+    margin: 30px auto;
+ }
+ .chooseUS .circle i{
+   color: var(--color-primary);
+font-size: 45px;
+}
+.card{
+    margin: 20px 0;
+}
