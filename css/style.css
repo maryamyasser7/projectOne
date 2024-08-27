@@ -13,7 +13,7 @@
 .backGroung{
     background-image: url(../images/1.jpg);
     position: relative;
-    height: 90dvh;
+    height: 100dvh;
 }
 .backGroung .overlay{
     width: 100%;
